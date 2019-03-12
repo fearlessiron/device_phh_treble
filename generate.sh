@@ -74,7 +74,7 @@ $rom_script
 PRODUCT_NAME := $target
 PRODUCT_DEVICE := phhgsi_${arch}_$part
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := moto g⁶
+PRODUCT_MODEL := moto g(6)
 
 PRODUCT_PACKAGES += $extra_packages
 EOF
