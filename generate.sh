@@ -73,6 +73,7 @@ for part in a ab;do
 include build/make/target/product/treble_common.mk
 \$(call inherit-product, vendor/vndk/${vndk})
 \$(call inherit-product, device/phh/treble/base.mk)
+\$(call inherit-product, vendor/flo/common.mk)
 $apps_script
 $rom_script
 
